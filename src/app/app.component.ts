@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Piper Wright';
+  catGif = 'https://media.giphy.com/media/oSQgHSdZmGmwU/giphy.gif';
+  catGifAlt = "A cat gif";
+  dog1 = {name: "Harry", color:"blue"}
+  dog2 = {name: "Barry", color:"red"}
 }
